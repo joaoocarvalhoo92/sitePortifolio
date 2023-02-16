@@ -216,9 +216,9 @@ h1.black {
     margin-top: 37px;
     padding: 20px;
 }
-.portifolioImg {
+/* .portifolioImg {
     display: block;
-}
+} */
 
 
 
@@ -229,16 +229,15 @@ h1.black {
     text-align: center;
     margin-left: 0;
   }
-  .container #headerImg{
+    .portifolioImg{
     margin-top: 50px;
     width:300px;
     margin-left: 0;
+    text-align: center;
 
   }
-  body {
-    margin-left:5%;
-    margin-right:5%;
-}
+
+
 }
 
   
