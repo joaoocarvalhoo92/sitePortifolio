@@ -227,11 +227,18 @@ h1.black {
     display: block;
     margin: 0 auto;
     text-align: center;
+    margin-left: 0;
   }
-  #headerImg{
+  .container #headerImg{
     margin-top: 50px;
+    width:300px;
+    margin-left: 0;
 
   }
+  body {
+    margin-left:5%;
+    margin-right:5%;
+}
 }
 
   
