@@ -1,0 +1,234 @@
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container {
+    display: grid;
+    grid-auto-flow: column; /*Defini como o navegador vai 
+    dividir as divs que são filhas da div
+    container*/
+    grid-auto-columns: 1fr;
+
+}
+
+#header{
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 28px;
+   margin-top:40px;
+   margin-bottom:40px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#buttonCta{
+    background-color: #1f7cff;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 25px 10px 25px;
+}
+
+
+#menu li {
+    font-family: Poppins;
+    list-style-type: none;
+
+}
+
+#headerCta{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color:#575455;
+}
+
+#headerCta h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    color:black;
+    line-height: 45px;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+/*Esse código em CSS é um seletor que 
+está direcionando a estilização para 
+os elementos "li" dentro do elemento com o ID "menu".
+
+A propriedade "display: inline-block" 
+está sendo aplicada a esses elementos 
+"li", o que faz com que eles sejam 
+exibidos em linha e com uma altura que 
+permite que outros elementos fiquem ao lado deles. 
+Essa propriedade é comumente usada 
+para criar menus horizontais.*/
+
+#headerImg img {
+    border-radius: 50px;
+    margin-left: 42px;
+    width: 100%;
+
+}
+
+.headerLogo {
+    text-align: center;
+}
+
+#headerClientText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #070F18;
+
+}
+
+#clients {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2.red {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F75C4E;
+}
+
+h1.black {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+    margin-top: 0;
+}
+
+.textCenter {
+    text-align: center;
+    
+}
+
+#services .textCenter  h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #070F18;
+}
+
+#services .textCenter p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #575455;
+}
+
+#contactImg img {
+    width: 100%;
+    border-radius: 50px;
+ 
+}
+
+#contactForm {
+    margin-left: 75px;
+    text-align: left;
+  
+}
+
+#contact {
+    margin-top: 100px;
+}
+
+#contactForm p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #575455;
+
+}
+
+#contactForm input {
+    background: #F5F6FB;
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #575455;
+    border: 0;
+    width: 70%;
+    padding: 15px 25px 15px 25px;
+}
+
+#contactForm button {
+    background: #1F7CFF;
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0;
+    padding: 15px 25px 15px 25px;
+    width: 50%;
+    margin-top: 25px;
+}
+
+.portifolioImg {
+    width: 100%;
+    margin-top: 37px;
+    padding: 20px;
+}
+.portifolioImg {
+    display: block;
+}
+
+
+
+@media (max-width: 700px) {
+  .container {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+  
+  
